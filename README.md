@@ -9,5 +9,6 @@ Needs WinLibs to launch; winget install winlibs / https://winlibs.com/#download-
 Needs to be set as env. variable; [System.Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\PATH\TO\mingw64\bin", [System.EnvironmentVariableTarget]::Machine)
 
 ![image](https://github.com/user-attachments/assets/4a1708e5-e44e-45b0-92bb-b1e538c283b7)
-![image](https://github.com/user-attachments/assets/2f5933a3-38fe-4560-8a74-9788df63ef11)
-![image](https://github.com/user-attachments/assets/661136f5-c61d-4b41-9cbd-5c73835878b6)
+![image](https://github.com/user-attachments/assets/37adef65-d33d-4334-9834-103d234f3edc)
+![image](https://github.com/user-attachments/assets/a9740069-8749-4b01-b8e5-3acd69cc3e07)
+
