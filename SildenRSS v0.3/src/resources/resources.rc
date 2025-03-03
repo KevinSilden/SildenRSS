@@ -1,0 +1,3 @@
+#include "../modules/headers/resources.h"
+
+APP_ICON ICON "media/icons/appicon.ico"

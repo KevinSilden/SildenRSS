@@ -1,0 +1,4 @@
+Pakk inn ressurser, gjør kode om til .exe, uten konsoll:
+
+windres src/resources.rc -o build/resources.res
+g++ -o build/SildenAmp.exe src/main.cpp build/resources.res -mwindows
