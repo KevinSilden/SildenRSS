@@ -5,4 +5,4 @@ Will add a few more news sites later (maybe)
 
 Needs WinLibs to launch; winget install winlibs / https://github.com/brechtsanders/winlibs_mingw
 
-Needs to be set as env. variable
+Needs to be set as env. variable; [System.Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\PATH\TO\mingw64\bin", [System.EnvironmentVariableTarget]::Machine)
