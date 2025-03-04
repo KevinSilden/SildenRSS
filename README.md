@@ -1,6 +1,10 @@
 # SildenRSS
 Imports RSS feeds.
-Written in C++, as well as a compiler in powershell. Clickable titles, opens the "links"(blue titles) in web browser when clicked. Scrolling is working, but it doesn't scroll back up when changing RSS feeds(yet). So a bit b0rked.
+Written in C++, as well as some powershell to generate a .exe.
+
+Tested on a phsyical machine runnin x64 W11 as well as a VM running x64 W10.
+
+Clickable titles, opens the "links"(blue titles) in web browser when clicked. Scrolling is working, but it doesn't scroll back up when changing RSS feeds(yet). So a bit b0rked.
 Will add a few more news sites later (maybe).
 Sets colours based on system(registry), light mode is atrocious atm.
 
