@@ -50,9 +50,9 @@ foreach ($source in $sourceFiles) {
     }
 }
 
-# Link all object files and resources.res into the final executable
+# Link all object files and resources.res into the final executable, MINGW64 now statically linked, tested on a VM
 g++ -I "src/modules/headers" -I "src/resources/libraries" -o build/SildenRSS.exe `
-    $objectFiles build/resources.res -mwindows -ldwmapi -lwininet
+    $objectFiles build/resources.res -mwindows -static -static-libgcc -static-libstdc++ -ldwmapi -lwininet
 
 if (!(Test-Path "build/SildenRSS.exe")) {
     Write-Host "Error: SildenRSS.exe was not created!" -ForegroundColor Red
