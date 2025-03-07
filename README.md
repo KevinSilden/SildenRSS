@@ -4,7 +4,7 @@ Written in C++, as well as some powershell to generate a .exe.
 
 Tested on a physical machine running x64 W11 as well as a VM running x64 W10.
 
-Clickable titles, opens the links in web browser when clicked. No change of colour when first clicked, yet. 
+Clickable titles, opens the links from feed in web browser when clicked. No change of colour when first clicked, yet. 
 Scrolling is working, but it doesn't scroll back up when changing RSS feeds(yet). So a bit b0rked.
 Will add a few more news sites later (maybe).
 Sets colours based on system(registry).
@@ -15,7 +15,7 @@ Needs to be set as env. variable; [System.Environment]::SetEnvironmentVariable("
 
 Command "g++ --version" to check version on system. </strike>
 
-PowerShell updated, now statically linking MINGW64 in the .exe
+<b>PowerShell updated, now statically linking MINGW64 in the .exe</b>
 
 Had some good help using a certain LLM on this one.. :)
 
