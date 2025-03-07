@@ -8,11 +8,13 @@ Clickable titles, opens the "links" in web browser when clicked. No change of co
 Will add a few more news sites later (maybe).
 Sets colours based on system(registry), light mode is atrocious atm.
 
-Needs WinLibs to launch; winget install winlibs / https://winlibs.com/#download-release, https://github.com/brechtsanders/winlibs_mingw
+<strike>Needs WinLibs to launch; winget install winlibs / https://winlibs.com/#download-release, https://github.com/brechtsanders/winlibs_mingw
 
 Needs to be set as env. variable; [System.Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\PATH\TO\mingw64\bin", [System.EnvironmentVariableTarget]::Machine)
 
-Command "g++ --version" to check version on system.
+Command "g++ --version" to check version on system. </strike>
+
+PowerShell updated, now statically linking MINGW64 in the .exe
 
 Had some good help using a certain LLM on this one.. :)
 
